@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    <title>Contact Us</title>
+    <link rel="stylesheet" type="text/css" href="style.css" />    
+    </head>
+    <body>
+          <div id="title">
+        <h1>Sandwich Heaven</h1>
+        </div> 
+            <a href="Home Page.html">Home</a>
+            <a href="Menu Page.html">Menu</a>
+            <a href="ContactUs.html">Contact Us</a>
+            <hr size="3px">
+        <align><center> 
+        <div>
+            <div id="contact">
+            <form action="ContactUs.html" method="POST">
+            <label>Name:</label> <input type="text" name="name" /><br/>
+            <label>E-Mail:</label> <input type="text" name="email" /><br/>
+            <label>Phone Number:</label> <input type="text" name="phone" /><br/>
+            <label>Reason for Inquiry:</label> 
+            <select name="inquiry">
+                <option value="catering">Catering</option>
+                <option value="privateParty">Private Party</option>
+                <option value="feedback">Feedback</option>
+                <option value="other">Other</option>
+            </select><br/>
+            <label>Additional Information:</label>
+            <textarea name="addInfo"></textarea><br/>
+            </div>
+        </div>
+            <div id="description">
+            Have you been here Before?
+            <input type="radio" name="answer" value="No" checked/>No
+            <input type="radio" name="answer" value="Yes">Yes<br/>
+            Best Days to Contact You:
+            <input type="checkbox" name="myDays" value="Mon"/>M
+            <input type="checkbox" name="myDays" value="Tue"/>T
+            <input type="checkbox" name="myDays" value="Wed"/>W
+            <input type="checkbox" name="myDays" value="Thur"/>Th
+            <input type="checkbox" name="myDays" value="Fri"/>F
+        </div>
+        </br>
+            
+            <input type="submit"/><br/>
+        </form>    
+    </body>
+</align>
+    <hr size="3px">
+    <footer>
+            <align><center>3150 Beaver St Suite 215 Beaverton, OR 97006</align><br/>
+            <align><center>(505)555-5555</align><br/>
+    </footer>    
+
+</html>
